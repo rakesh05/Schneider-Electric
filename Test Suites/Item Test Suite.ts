@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Item Test Suite</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>1</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>true</rerunFailedTestCasesOnly>
+   <testSuiteGuid>0d805d9b-722c-440e-8820-1d18f5b435df</testSuiteGuid>
+   <testCaseLink>
+      <guid>c2a3ce30-c815-40f8-b9e1-f9df9a959e2c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Items Test Cases/Create an Item</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>634edf8d-85ff-4e84-a982-5be8eee0d217</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Item Test Data/Item Details</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>634edf8d-85ff-4e84-a982-5be8eee0d217</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>partNumber</value>
+         <variableId>826a2cb2-c28d-40ea-b46c-1ee707129c02</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>634edf8d-85ff-4e84-a982-5be8eee0d217</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>brandName</value>
+         <variableId>a1203a8a-8ed1-4bf3-95f3-504c0fd0aa37</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>111c3382-510c-4ea3-b9d0-5aa9c5cdd8d3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Items Test Cases/Delete an Item</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>e71b9638-612b-44ec-977a-5e4dfa20a1e4</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Item Test Data/Item Details</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>e71b9638-612b-44ec-977a-5e4dfa20a1e4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>partNumber</value>
+         <variableId>d459770a-5114-4259-a6fb-f394cb97b267</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e71b9638-612b-44ec-977a-5e4dfa20a1e4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>message</value>
+         <variableId>b3d86e44-8553-4d30-9787-0eba6c4b74ff</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e71b9638-612b-44ec-977a-5e4dfa20a1e4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>brandName</value>
+         <variableId>9b90d10c-0f51-4770-87b3-c22800d22d7a</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

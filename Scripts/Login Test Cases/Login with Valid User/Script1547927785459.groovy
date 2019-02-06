@@ -1,0 +1,42 @@
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import internal.GlobalVariable as GlobalVariable
+
+'Input username'
+WebUI.setText(findTestObject('Login/input_Username'), username)
+
+'Input password'
+WebUI.setText(findTestObject('Login/input_Password'), password)
+
+'Click on login button'
+WebUI.click(findTestObject('Login/btn_Login'))
+
+'Verify the client name'
+WebUI.verifyElementText(findTestObject('Navigation Menu/txt_Client Name'), clientname)
+
+@com.kms.katalon.core.annotation.TearDownIfPassed
+def logout() {
+	'Click on user option'
+	WebUI.click(findTestObject('Navigation Menu/icn_User Icon'))
+
+	'Wait for 10 sec'
+	WebUI.delay(GlobalVariable.G_Timeout)
+
+	'Click on logout link'
+	WebUI.click(findTestObject('Navigation Menu/link_Logout'))
+
+	'Verify that login page is displayed'
+	WebUI.verifyElementVisible(findTestObject('Login/input_Username'))
+}
+

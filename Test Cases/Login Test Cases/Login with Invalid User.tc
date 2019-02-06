@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that invalid users cannot login.
+
+Steps:
+- Input user name and password
+- Click on login button
+
+Expected result:
+An error message 'Invalid Credentials' is displayed.</description>
+   <name>Login with Invalid User</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9df81de2-ccb7-47c9-bbe6-3d216c69bf33</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c34bfa37-8c4f-4006-8020-f146f80d31a5</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2b1d28b0-dd7b-4016-bc43-9bda90e73c41</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

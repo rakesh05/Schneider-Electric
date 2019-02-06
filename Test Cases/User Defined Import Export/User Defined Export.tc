@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that user is able to export data successful.
+
+Precondition:
+- Login to application
+
+Steps:
+- Navigate to User Defined Import/Export page
+- Select template &amp; Click on Export icon
+- Select Workbook Name
+- Select Taxonomy Version
+- Click on Export Data button
+
+Expected result:
+The selected workbook data got exported.</description>
+   <name>User Defined Export</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4e1d52dc-b404-48d6-8a7d-ffb7ab5263bb</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>980e85be-80d0-423b-aefa-c7330a284cd1</id>
+      <masked>false</masked>
+      <name>templateName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9b1c89f4-7e49-4ea2-9fda-b3a8a09415a0</id>
+      <masked>false</masked>
+      <name>workbookName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e94aa934-d3fe-4443-b892-1fc5033a17a5</id>
+      <masked>false</masked>
+      <name>taxonomyVersion</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c6eb52cc-d439-4965-8f6e-5245bdc2c880</id>
+      <masked>false</masked>
+      <name>exportedMsg</name>
+   </variable>
+</TestCaseEntity>

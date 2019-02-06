@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if user can delete item successful.
+
+Pre-Condition:
+- Login to application
+
+Steps:
+- Search for an item
+- Click on delete icon
+
+Expected result:
+Item got deleted successful.</description>
+   <name>Delete an Item</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d703d511-78be-46fb-a9f5-8a2efd6c0e12</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d459770a-5114-4259-a6fb-f394cb97b267</id>
+      <masked>false</masked>
+      <name>partNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9b90d10c-0f51-4770-87b3-c22800d22d7a</id>
+      <masked>false</masked>
+      <name>brandName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b3d86e44-8553-4d30-9787-0eba6c4b74ff</id>
+      <masked>false</masked>
+      <name>message</name>
+   </variable>
+</TestCaseEntity>

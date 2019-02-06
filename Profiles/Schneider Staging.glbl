@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>Schneider Staging</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description>Wait for 10 sec</description>
+      <initValue>10</initValue>
+      <name>G_Timeout</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Wait for 60 sec</description>
+      <initValue>60</initValue>
+      <name>G_LongTimeout</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Wait for 30 sec</description>
+      <initValue>30</initValue>
+      <name>G_ShortTimeout</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Schneider stage site url</description>
+      <initValue>'https://schneidereustage.cimm2.com/KZHJTBSTJV/'</initValue>
+      <name>G_SiteURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Username</description>
+      <initValue>'RakeshGlobal'</initValue>
+      <name>G_Username</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>password</description>
+      <initValue>'RakeshGlobal@123'</initValue>
+      <name>G_Password</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

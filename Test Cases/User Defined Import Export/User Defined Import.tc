@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that user is able to import data successful.
+
+Precondition:
+- Login to application
+
+Steps:
+- Navigate to User Defined Import/Export page
+- Select template &amp; Click on Import icon
+- Upload the File
+- Click on Start Process
+
+Expected result:
+The uploaded file data gets loaded into stage table.
+</description>
+   <name>User Defined Import</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>869f29d4-bae7-4f48-8c6c-9bb0cb96d8d4</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b6ec8794-b124-442a-af8a-f203d64254d2</id>
+      <masked>false</masked>
+      <name>templateName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d2e81afa-9ad4-456b-9290-279515d4247e</id>
+      <masked>false</masked>
+      <name>uploadFilePath</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9bdd8129-98b7-4b86-a45a-b77037157a3b</id>
+      <masked>false</masked>
+      <name>fileUploadMsg</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>64ca4561-98f3-4bec-92e5-d22fbca64083</id>
+      <masked>false</masked>
+      <name>startProcessMsg</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify if users can login successful.
+
+Steps:
+- Input user name and password
+- Click on login button
+
+Expected result:
+Landing page is displayed after successful login.</description>
+   <name>Login with Valid User</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>24ece8d2-a1fc-4114-aa52-25b6c4f67d2c</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>025f9c32-4e4e-46f2-ad23-2d908cc5d8b3</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a702e11c-8339-491d-87d7-accad9ba00ca</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>dc4c42ed-fa40-4ab1-930b-c46ba0a070ec</id>
+      <masked>false</masked>
+      <name>clientname</name>
+   </variable>
+</TestCaseEntity>

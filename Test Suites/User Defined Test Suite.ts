@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>User Defined Test Suite</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient>Lokesh.Kumar@unilogcorp.com;</mailRecipient>
+   <numberOfRerun>1</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>true</rerunFailedTestCasesOnly>
+   <testSuiteGuid>67dc9e3d-0f07-4fb5-ab33-f5d640f9f295</testSuiteGuid>
+   <testCaseLink>
+      <guid>357df215-06b8-4551-b4bf-c578dd72558a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/User Defined Import Export/User Defined Import</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>babf49af-cea2-4939-bf10-42303042f185</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/User Defined Test Data/Import Details</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>babf49af-cea2-4939-bf10-42303042f185</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>templateName</value>
+         <variableId>b6ec8794-b124-442a-af8a-f203d64254d2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>babf49af-cea2-4939-bf10-42303042f185</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>uploadFilePath</value>
+         <variableId>d2e81afa-9ad4-456b-9290-279515d4247e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>babf49af-cea2-4939-bf10-42303042f185</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>startProcessMsg</value>
+         <variableId>64ca4561-98f3-4bec-92e5-d22fbca64083</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>babf49af-cea2-4939-bf10-42303042f185</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>fileUploadMsg</value>
+         <variableId>9bdd8129-98b7-4b86-a45a-b77037157a3b</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a9a76990-1db7-44b1-9757-144c7ea59f59</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/User Defined Import Export/User Defined Export</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>6947ef4f-f224-483b-8c60-081a62959ab3</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/User Defined Test Data/Import Details</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>6947ef4f-f224-483b-8c60-081a62959ab3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>templateName</value>
+         <variableId>980e85be-80d0-423b-aefa-c7330a284cd1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6947ef4f-f224-483b-8c60-081a62959ab3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>workbookName</value>
+         <variableId>9b1c89f4-7e49-4ea2-9fda-b3a8a09415a0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6947ef4f-f224-483b-8c60-081a62959ab3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>taxonomyVersion</value>
+         <variableId>e94aa934-d3fe-4443-b892-1fc5033a17a5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6947ef4f-f224-483b-8c60-081a62959ab3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>exportedMsg</value>
+         <variableId>c6eb52cc-d439-4965-8f6e-5245bdc2c880</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
